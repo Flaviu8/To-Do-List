@@ -10,6 +10,14 @@
 .form {
     display: flex;
     flex-direction: column;
+    padding: 0 20%;
+}
+.form label {
+font-size: x-large;
+}
+
+.form button {
+    padding: 8px;
 }
 
 .form input {
@@ -22,4 +30,13 @@
 
 .clear-button {
     padding: 15px 0;
+}
+
+.list {
+    display: flex;
+    padding: 0 20%;
+}
+
+.list button {
+    margin: 5px;
 }
